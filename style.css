@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 720px;
+    height: 1250px;
+    margin: 10px auto;
+    border: 8px solid black;
+    border-radius: 2rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+#hook-msg {
+    margin: 20px 20px;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+.hampton-landmark {
+    width: 100%;
+    height: 350px;
+    background-image: url("./images/Hampton\ Landmark.jpg");
+    background-image: cover;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.attraction-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: url("./images/Attraction.jpg");
+    background-image: cover;
+}
+
+.attraction-image:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: #000 0px 0px 10px;
+    filter: brightness(1.2);
+}
+
+#attractions-title {
+    display: block;
+    padding: 10px;
+    margin: 20px 10px;
+    font-size: 2rem;
+    border: 4px solid black;
+    border-radius: 1rem;
+    background-color: aquamarine;
+    color: #000;
+    text-shadow: 0 0 10px #fff;
+}
+
+.attractions {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.va-air-and-space, .hampton-coliseum, .fort-monroe-brewery {
+    margin: 20px;
+    padding: 5px;
+    border: 4px solid black;
+    border-radius: 1rem;
+    background-color: aquamarine;
+    color: black;;
+}
+
+.va-air-and-space:hover, .hampton-coliseum:hover, .fort-monroe-brewery:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: #000 0px 0px 10px;
+    filter: brightness(1.2);
+}
+
+h4 {
+    font-size: 1.25rem;
+    margin: 5px 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    padding: 10px;
+    border: 4px solid black;
+    border-radius: 1rem;
+    background-color: beige;
+    line-height: 1.5;
+}
+
+.sean-image {
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+
+.sean-image:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: #000 0px 0px 10px;
+    filter: brightness(1.2);
+}
